@@ -395,10 +395,6 @@ module Xlsxtream
       expected = \
         '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'"\r\n" \
         '<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">' \
-          '<numFmts count="2">' \
-            '<numFmt numFmtId="164" formatCode="yyyy\\-mm\\-dd"/>' \
-            '<numFmt numFmtId="165" formatCode="yyyy\\-mm\\-dd hh:mm:ss"/>' \
-          '</numFmts>' \
           '<fonts count="2">' \
             '<font>' \
               '<sz val="12"/>' \
@@ -428,15 +424,15 @@ module Xlsxtream
           '</cellStyleXfs>' \
           '<cellXfs count="6">' \
             '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>' \
-            '<xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>' \
-            '<xf numFmtId="165" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>' \
+            '<xf numFmtId="14" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>' \
+            '<xf numFmtId="22" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>' \
             '<xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyAlignment="1">' \
               '<alignment horizontal="center" vertical="center"/>' \
             '</xf>' \
-            '<xf numFmtId="164" fontId="1" fillId="0" borderId="0" xfId="0" applyAlignment="1" applyNumberFormat="1">' \
+            '<xf numFmtId="14" fontId="1" fillId="0" borderId="0" xfId="0" applyAlignment="1" applyNumberFormat="1">' \
               '<alignment horizontal="center" vertical="center"/>' \
             '</xf>' \
-            '<xf numFmtId="165" fontId="1" fillId="0" borderId="0" xfId="0" applyAlignment="1" applyNumberFormat="1">' \
+            '<xf numFmtId="22" fontId="1" fillId="0" borderId="0" xfId="0" applyAlignment="1" applyNumberFormat="1">' \
               '<alignment horizontal="center" vertical="center"/>' \
             '</xf>' \
           '</cellXfs>' \
